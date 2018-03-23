@@ -1,0 +1,10 @@
+const { URL } = require('url');
+const myUrl   = new URL('http://LZH:lroot@www.ltinyho.top:7777/test?test=a');
+console.log(myUrl.host);
+console.log(myUrl.port);
+console.log(myUrl.hostname);
+console.log(myUrl.pathname);
+console.log(myUrl.protocol);
+console.log(myUrl.origin);
+console.log(myUrl.searchParams.get('test'));
+console.log(myUrl.password);
