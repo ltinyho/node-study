@@ -1,0 +1,1 @@
+var lzh = require('lzh');
